@@ -85,6 +85,32 @@ The project uses the public user endpoints to demonstrate different API testing 
 
 **Note:** Reqres's classic demo endpoints return simulated responses. POST, PUT and DELETE operations do not persist changes to the underlying data.
 
+
+## Continuous Integration (CI/CD)
+
+This project integrates GitHub Actions to automate API test execution.
+
+The CI pipeline is triggered when:
+
+- Code is pushed to the `main` branch.
+- A pull request is opened against the `main` branch.
+
+### CI Pipeline Workflow
+
+1. Checks out the repository.
+2. Sets up the Node.js environment.
+3. Installs project dependencies.
+4. Executes the Playwright API test suite.
+5. Uploads the Playwright HTML test report as a workflow artifact.
+
+### Test Reporting
+
+Playwright HTML reports are uploaded as GitHub Actions artifacts, allowing test execution results to be reviewed and downloaded after each workflow run.
+
+The pipeline helps ensure that API tests are executed consistently whenever changes are introduced to the repository.
+
+
+
 ## Key Learning Outcomes
 
 Through this project, I gained practical experience in:
