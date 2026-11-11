@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "REST API test automation using Playwright and JavaScript",
   "scripts": {
-    "test": "playwright test",
+   "test": "playwright test",
     "test:report": "playwright show-report",
     "test:debug": "playwright test --debug"
   },
