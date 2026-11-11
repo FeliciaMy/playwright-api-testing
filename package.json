@@ -1,13 +1,22 @@
 {
   "name": "api-testing",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "description": "REST API test automation using Playwright and JavaScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [
+    "api-testing",
+    "playwright",
+    "javascript",
+    "test-automation",
+    "qa"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@playwright/test": "^1.65.0"
   }
