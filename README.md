@@ -1,5 +1,5 @@
 
-[![API Test Automation](https://github.com/FeliciaMy/playwright-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/FeliciaMy/playwright-api-testing/actions/workflows/api-tests.yml)
+[![API Test Automation ci/cd workflow](https://github.com/FeliciaMy/playwright-api-testing/actions/workflows/api-tests.yml/badge.svg)](https://github.com/FeliciaMy/playwright-api-testing/actions/workflows/api-tests.yml)
 
 
 
